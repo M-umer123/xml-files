@@ -1,0 +1,20 @@
+
+
+<hospital>
+
+    <patient1>
+        <room_no>115</room_no>
+        <bed_no>5</bed_no>
+    </patient1>
+
+    <patient2>
+          <room_no>216</room_no>
+        <bed_no>9</bed_no>
+    </patient2>
+
+    <patient3>
+          <room_no>60</room_no>
+        <bed_no>1</bed_no>
+    </patient3>
+    
+</hospital>
