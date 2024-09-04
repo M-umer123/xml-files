@@ -1,0 +1,8 @@
+<!DOCTYPE Student SYSTEM "xmlDTDLink.dtd">
+
+
+<Student>
+    <name>Ali</name>
+    <age>12</age>
+    <class>9</class>
+</Student>

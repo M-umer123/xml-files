@@ -1,0 +1,24 @@
+<bookStore>
+
+    <book1>
+        <title>The Moon (First Discovery)</title>
+        <author>Philippe Biard</author>
+        <year>April 1, 2012</year>
+        <price>3,000</price>
+    </book1>
+    
+    <book2>
+        <title>The Solar System</title>
+        <author>Sophie Allan</author>
+        <year>2023</year>
+        <price>3,325</price>
+    </book2>
+
+    <book3>
+        <title>The Astronomy Book</title>
+        <author>Robert Dinwiddie,  Dan Green</author>
+        <year>September 7, 2017</year>
+        <price>2,000</price>
+    </book3>
+
+</bookStore>

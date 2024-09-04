@@ -1,0 +1,16 @@
+<classes xmlns:c9="http://www.w3.org/XML/1998/namespace/class_9"
+xmlns:c10="http://www.w3.org/XML/1998/namespace/class_10">
+
+<c9:student>
+    <c9:name>Ali</c9:name>
+    <c9:age>15</c9:age>
+    <c9:class>9</c9:class>
+</c9:student>
+
+<c10:student>
+    <c10:name>Ahmed</c10:name>
+    <c10:age>13</c10:age>
+    <c10:class>10</c10:class>
+</c10:student>
+
+</classes>
