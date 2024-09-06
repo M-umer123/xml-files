@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<bookStore>
+    <book1>
+      <title>The Moon (First Discovery)</title>
+      <author>Philippe Biard</author>
+      <year>April 1, 2012</year>
+      <price>3,000</price>
+    </book1>
+    <book2>
+      <title>The Solar System</title>
+      <author>Sophie Allan</author>
+      <year>2023</year>
+      <price>3,325</price>
+    </book2>
+    <book3>
+      <title>The Astronomy Book</title>
+      <author>Robert Dinwiddie,  Dan Green</author>
+      <year>September 7, 2017</year>
+      <price>2,000</price>
+    </book3>
+  </bookStore>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bookStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="book1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="author" type="xs:string" />
+              <xs:element name="year" type="xs:string" />
+              <xs:element name="price" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="book2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="author" type="xs:string" />
+              <xs:element name="year" type="xs:unsignedShort" />
+              <xs:element name="price" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="book3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="author" type="xs:string" />
+              <xs:element name="year" type="xs:string" />
+              <xs:element name="price" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
+
+
+
+
+
+
+
+
+
+
+<!-- xsd validator site -->
